@@ -8,5 +8,13 @@
     "type": "git"
   },
   "author": "Offirmo <offirmo.net@gmail.com>",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "ts-node": "^1.7.0",
+    "tslint": "^4.0.2",
+    "typescript": "^2.0.10"
+  },
+  "dependencies": {
+    "lodash": "^4.17.2"
+  }
 }
