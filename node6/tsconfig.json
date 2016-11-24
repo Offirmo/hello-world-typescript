@@ -1,0 +1,37 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"listFiles": false,
+		"pretty": true,
+
+		"moduleResolution": "node",
+		"traceResolution": false,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+
+		"allowJs": false,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"strictNullChecks": true,
+		"suppressImplicitAnyIndexErrors": false,
+
+		"target": "es2015",
+		"module": "es2015",
+		"noEmitOnError": true,
+		"newLine": "lf",
+		"declaration": true,
+		"sourceMap": true,
+		"outDir": "dist/es6"
+	},
+	"files": [
+
+	],
+	"exclude": [
+
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"listFiles": true,
+		"pretty": true,
+		"module": "commonjs",
+		"target": "es5",
+		"noImplicitAny": true,
+		"sourceMap": true,
+		"outDir": "tmp/src.es5"
+	},
+	"include": [ "src/**/*.ts" ],
+	"exclude": [ "node_modules" ]
+}

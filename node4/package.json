@@ -1,0 +1,9 @@
+{
+  "name": "hello-world-typescript-node4",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc",
+    "start": "node tmp/src.es5/index.js"
+  }
+}
