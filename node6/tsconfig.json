@@ -1,37 +1,14 @@
 {
 	"compileOnSave": false,
 	"compilerOptions": {
-		"listFiles": false,
+		"listFiles": true,
 		"pretty": true,
-
-		"moduleResolution": "node",
-		"traceResolution": false,
-		"experimentalDecorators": true,
-		"emitDecoratorMetadata": true,
-
-		"allowJs": false,
-		"forceConsistentCasingInFileNames": true,
-		"noFallthroughCasesInSwitch": true,
+		"module": "commonjs",
+		"target": "es6",
 		"noImplicitAny": true,
-		"noImplicitReturns": true,
-		"noImplicitThis": true,
-		"noUnusedLocals": false,
-		"noUnusedParameters": false,
-		"strictNullChecks": true,
-		"suppressImplicitAnyIndexErrors": false,
-
-		"target": "es2015",
-		"module": "es2015",
-		"noEmitOnError": true,
-		"newLine": "lf",
-		"declaration": true,
 		"sourceMap": true,
-		"outDir": "dist/es6"
+		"outDir": "tmp/src.es6"
 	},
-	"files": [
-
-	],
-	"exclude": [
-
-	]
+	"include": [ "src/**/*.ts" ],
+	"exclude": [ "node_modules" ]
 }
